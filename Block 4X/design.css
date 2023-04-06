@@ -1,0 +1,158 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+:root{
+    font-size: 67.5%;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none;
+}
+
+a:active { 
+    text-decoration: none;
+}
+
+a.left{
+    margin-left: 2rem;
+}
+
+
+.b1{
+    background-color: rgba(0, 0, 0, 0.800);
+    height: 100%;
+}
+
+.h2 {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1.bottom{
+    background-color: #f90202;
+    bottom: 0px;
+}
+
+img.a {
+    width: 20rem;
+    border-color: #f90202;
+}
+
+img.ab {
+    width: 26.888rem;
+    margin-right: 0.01rem;
+    background-color: white;
+}
+
+div{
+    margin-left: 0.1rem;
+    margin-right: 0.01rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.75rem;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para {
+    width: 100%;
+    max-width: 10rem;
+    word-wrap: normal;
+}
+
+.footer {
+    position: absolute;
+    display: flow-root;
+    background-color: #000000;
+    width: 100%;
+    margin-top: 9rem;
+    padding: 0.5rem;
+    /* Height of the footer*/
+}
+
+/* .foot{
+    bottom: 5.75%;
+    width: 60px;
+    margin-top: 9.5rem;
+    background-color: white;
+} */
+
+.header{
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.margin{
+    margin-bottom: 22.5rem;
+}
+
+table, th, td {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.gap{
+    margin-bottom: 7.5rem;
+}
+
+.tgap{
+    margin-top: 0.75rem;
+}
+
+.Tgap{
+    margin-top: 15rem;
+}
+
+.text {  
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #f90202;  
+    word-wrap: normal;
+}
+
+.right{
+    float: right;
+    right: 0;
+}
+
+.border{
+    border: 1rem;
+    border-color: #f90202;
+}
+
+.center{
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+button{
+    width: auto;
+    background-color: #f90202;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0.1rem;
+    border-radius: 0.5rem;
+}
+
